@@ -1,0 +1,9 @@
+# 本工具是零依赖的，不需要安装任何包就能运行。
+#
+# 唯一可选的是 pyserial：装了之后会优先用 pyserial 打开串口，
+# 没装则自动回退到 Windows kernel32 / Linux termios 原生实现。
+#
+# 想装的话执行：
+#   pip install -r requirements.txt
+#
+pyserial>=3.5
